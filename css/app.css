@@ -1,0 +1,72 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    color: rgb(0, 0, 50);
+}
+
+@font-face {
+    font-family: "Magik";
+    src: url('../Magik.TTF');
+}
+
+@font-face {
+    font-family: "Windsong";
+    src: url('../Windsong.ttf');
+}
+
+@font-face {
+    font-family: "Hogwarts";
+    src: url('../HogwartsWizard.TTF');
+}
+
+@font-face {
+    font-family: "Aquiline";
+    src: url('../AquilineTwo.ttf');
+}
+
+.page {
+    background: url("../clean-gray-paper.png");
+    width: 21cm;
+    height: 29.7cm;
+    margin: 20px auto;
+}
+
+.magik {
+    font-family: "Magik";
+}
+
+.windsong {
+    font-family: "Windsong";
+}
+
+.hogwarts {
+    font-family: "Hogwarts";
+}
+
+.aquiline {
+    font-family: "Aquiline";
+}
+
+.block {
+    display: block;
+}
+
+.wd-26 {
+    width: 26%;
+}
+
+@media print {
+    .page {
+        margin: 0;
+    }
+}
